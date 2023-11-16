@@ -1,0 +1,490 @@
+:root {
+    --cor--cabeçalhorodape: #5DC460;
+    --cor--corpo: #A3E89C;
+    --cor--preto: black;
+    --cor--branco: white;
+    --cor--cinza: #d4cece;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*  */
+/* inicio do css do intex */
+header {
+    background-color: var(--cor--cabeçalhorodape);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+header nav a {
+    text-decoration: none;
+    color: var(--cor--preto);
+    font-size: 20px;
+}
+
+#quem-somos{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    
+}
+
+/* main do index */
+    /* quem somos */
+.quem-somosText {
+    width: 50%;
+    top: 130px;
+    left: 370px;
+    padding-left: 10px;
+
+}
+
+    /* segunda sessao do index*/
+#pesquisa-produtos {
+    background-color: var(--cor--corpo);
+    padding: 20px;
+    margin-top: -4px;
+}   
+
+    /* barra de pesquisa do index */
+.barraDePesquisa {
+    background-color: var(--cor--branco);
+    width: 260px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.barraDePesquisa input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.barraDePesquisa button{
+    border: none;
+    background-color: transparent;
+}
+
+    /* carrinho, devolução e pedidos do index */
+.devolucao-carrinho {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.devolucao-carrinho a {
+    text-decoration: none;
+    color: var(--cor--preto);
+}
+
+    /* botão do pesquisa produtos do index */
+.botoes-pesquisa-produtos button {
+    border: none;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 15px 65px 15px 65px;
+    font-size: 20px;
+}
+
+.botoes-pesquisa-produtos button:hover {
+    cursor: pointer;
+    background-color: var(--cor--cinza);
+
+}
+
+#main-isa .cima-carrinho{
+    text-align: left;
+    margin: 10px;
+    font-family: 'Imprima', sans-serif;
+}
+
+#main-isa .cima-carrinho h2{
+    padding-bottom: 5px;
+}
+
+
+#loguindajuju{
+    background-color: var(--cor--cabeçalhorodape);
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    text-decoration: none;
+    color: var(--cor--branco);
+    font-size: 20px;
+    background-color: #5DC460;
+}
+
+#main-isa .cima-carrinho h4{
+    padding-top: 7px;
+}
+
+#main-isa .informacoes-cartao h2{
+    padding-top: 8px;
+}
+
+#main-isa .informacoes-cartao p{
+    padding-bottom: 9px;
+}
+
+#main-isa .cartoes{
+    padding-bottom: 10px;
+}
+
+#main-isa .shampoo{
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+}
+
+#main-isa .carrinho-de-compras{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    font-family: 'Imprima', sans-serif;
+}
+
+#main-isa .informacoes-pagamento{
+    background-color: var(--cor--corpo);
+    width: 100%;
+    height: 100vh;
+}
+
+#main-isa .barra-preta{
+    width: 450px;
+    height: 0px;
+    left: 29px;
+    top: 520px;
+    border: 1px solid green;
+}
+
+#main-isa .selecionar{
+    text-align: center;
+    width: 100%;
+    overflow: auto;
+}
+
+#main-isa .selecionar table {
+    width: 100%;
+}
+
+#main-isa .quantidade{
+    display: grid;
+    grid-template-columns: 5fr 1fr 5fr;
+}
+
+#main-isa .button-quantidade{
+    border: none;
+    height: 15px;
+    background-color: transparent;
+}
+
+#main-isa .cartoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 10px;
+}
+
+#main-isa .numero-do-cartao input{
+    padding-left: 20px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+#main-isa .informacoes-cartao{
+    padding-left: 10px;
+}
+
+#main-isa .subtotal{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+
+#main-isa .frete{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+}
+
+#main-isa .total{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#main-isa .button-div{
+    text-align: center;
+    padding: 20px;
+}
+
+#main-isa .button-pagar{
+    background-color: #5DC460;
+    border: none;
+    border-radius: 15px;
+    color: white;
+    height: 30px;
+    width: 170px;
+}
+
+/* Registra-se */
+main .registro{
+    text-align: center;
+}
+
+main #form-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    padding: 15px;
+}
+
+main #form-formulario input{
+    border-radius: 10px;
+    border: 1px solid;
+    width: 290px;
+    padding: 8px;
+    display: block;
+}
+
+main #form-formulario .form-buttom-cad button{
+    border-radius: 10px;
+    border: 1px;
+    background-color: var(--cor--corpo);
+    width: 310px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+main .form-buttom-pos button{
+    border-radius: 10px;
+    border: 1px;
+    background-color: var(--cor--corpo);
+    width: 150px;
+    padding: 6px;
+    cursor: pointer;
+}
+
+    /* sessao lançamentos index */
+#lancamentos {
+    width: 100%;
+    height: 460px;
+    background-image: url(../static/img/banner-lancamento.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+    /* sessao promoções index */
+#promocoes {
+    width: 100%;
+    height: 660px;
+    background-image: url(../static/img/main-promocoes-banner.PNG);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: -6px;
+}
+
+    /* sessão entregas e parcelamento index */
+#entregas-parcelamento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+}
+
+.entregas {
+    margin: 0px 150px;
+}
+
+.parcelamento {
+    margin: 0px 150px;
+}
+
+    /* footer index */
+#rodape-inicial {
+    background-color: var(--cor--cabeçalhorodape);
+}
+
+.rodapeInicial-contatos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 15px;
+    background-image: url(../static/img/footer.png);
+    background-size: cover;
+}
+
+#formulariobaby input{
+    border-radius: 10px;
+    border: 1px solid;
+    padding: 5px;
+    width: 360px;
+    justify-content: center;
+}
+
+#formulariobaby label {
+    display: block;
+    margin-right: 300px;
+}
+
+#mainte{
+    text-align: center;
+    margin: 60px 0px;
+}
+
+#botaozinho {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#botaozinho  button{
+    padding: 5px;
+    border-radius: 20px;
+    width: 360px;
+    background-color: #A3E89C;
+    margin: 20px;
+    border: 1px solid;
+
+}
+
+#coisinha{
+    margin: 20px;
+}
+
+/* devoluçãoes e pedidos */
+#devo {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#devo nav,
+#devo .carrinho-devo {
+    text-align: right;
+}
+
+#pedidos-pesquisa {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 15px;
+}
+
+.busca-devo {
+    background-color: var(--cor--branco);
+    width: 800px;
+    border-radius: 20px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.busca-devo input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.busca-devo button {
+    border: none;
+    background-color: transparent;
+}
+
+.pesquisa-busca {
+    background-color: var(--cor--branco);
+    width: 310px;
+    border-radius: 20px;
+    border: 1px solid;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 3px;
+}
+
+.pesquisa-busca input {
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.pesquisa-busca button {
+    border: none;
+    background-color: transparent;
+}
+
+.botoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0px 20px;
+}
+
+.botoes button {
+    background-color: var(--cor--branco);
+    border: none;
+    border-radius: 5px;
+    padding: 20px 10px;
+}
+
+.botoes button:hover {
+    background-color: var(--cor--cinza);
+    cursor: pointer;
+}
+
+.tabela-textos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    background-color: var(--cor--corpo);
+    padding: 20px;
+}
+
+.tabela-textos a {
+    text-decoration: none;
+    color: var(--cor--preto);
+}
+
+.entregue {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 15px;
+}
+
+.entregue button {
+    border-radius: 8px;
+    border: 1px solid;
+    padding: 10px;
+    background-color: var(--cor--branco);
+}
+
+.entregue button:hover {
+    background-color: #DCDCDC;
+    cursor: pointer;
+}
+
+
+.produto-img {
+    margin: 10px;
+}
+
+.produto-img p {
+    margin: 5px;
+}
+
+.compre-produto button {
+    background-color: #E4FF3C;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+
